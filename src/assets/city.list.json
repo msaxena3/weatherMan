@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1259229,
+    "name": "Pune",
+    "country": "IN",
+    "coord": {
+      "lon": 73.855347,
+      "lat": 18.519569
+    }
+  },
+  {
+    "id": 1277013,
+    "name": "Bareilly",
+    "country": "IN",
+    "coord": {
+      "lon": 79.416672,
+      "lat": 28.35
+    }
+  },
+  {
+    "id": 1261481,
+    "name": "New Delhi",
+    "country": "IN",
+    "coord": {
+      "lon": 77.23114,
+      "lat": 28.61282
+    }
+  },
+  {
+    "id": 6534907,
+    "name": "Agra",
+    "country": "IT",
+    "coord": {
+      "lon": 8.76833,
+      "lat": 46.036678
+    }
+  },
+  {
+    "id": 5787829,
+    "name": "Bothell",
+    "country": "US",
+    "coord": {
+      "lon": -122.205399,
+      "lat": 47.762321
+    }
+  },
+  {
+    "id": 5809844,
+    "name": "Seattle",
+    "country": "US",
+    "coord": {
+      "lon": -122.332069,
+      "lat": 47.606209
+    }
+  },
+  {
+    "id": 6058560,
+    "name": "London",
+    "country": "CA",
+    "coord": {
+      "lon": -81.23304,
+      "lat": 42.983391
+    }
+  }
+]

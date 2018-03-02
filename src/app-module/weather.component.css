@@ -1,0 +1,128 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body { 
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+}
+
+.mat-app-background{
+  background-color: lightblue !important;
+  text-align: center;
+  width: 90%;
+}
+
+.basic-container {
+  padding: 5px;
+}
+@media (max-width: 1199px) and (min-width: 767px){
+	.weather-card {
+    width: 95%; 
+    margin:5px;   
+  }
+}
+
+@media (max-width: 766px) and (min-width: 320px){
+  .weather-card {
+    width: 88%; 
+    margin:5px;   
+  }
+}
+
+.weather-card-container{  
+  padding: 10px 10px 0px 10px;
+}
+.weather-header-image {
+  background-image: url('../images/weatherIcon.png');
+  background-size: cover;
+}
+.example-form {
+  width: 100%;
+  margin-top: 10px;
+  min-width: 100px;
+  max-width: 400px;
+}
+.list-item{
+  display: inline;  
+}
+.forecastImage{
+  width: 35px;
+}
+
+.example-full-width {
+  width: 100%;
+}
+.p-t-10{
+  padding-top: 10px;
+}
+
+.p-b-10{
+  padding-bottom: 10px;
+}
+
+.p-t-b-10{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.example-radio-group {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.example-radio-button {
+  margin: 5px;
+}
+
+.example-selected-value {
+  margin: 15px 0;
+}
+
+.mat-button-toggle-group-temp{
+  text-align: right;
+  font-size: 10px;
+}
+.label{
+  font-weight: bold;
+}
+.label-h4{
+  font-size: 22px;
+  font-weight: bold;
+}
+.f-20{
+  font-size: 20px !important;
+}
+.f-22{
+  font-size: 22px !important;
+}
+
+.chart{
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+}
+
+.weatherImg{
+  height: 45px;
+}
+.currentFlex{
+  display: inherit;
+}
+.currentImage{
+  display: inline-block;
+}
+.currentDesc{
+  display: inline-block;  
+}
+.min-high{
+  display: block;
+  color: rgba(0,0,0,.54);
+}
+.current-desc{
+  font-size: 28px;
+  font-weight: normal;
+  padding: 10px 0px 10px 0px;  
+}
+.main-container{
+  text-align: center;
+  display: inline;
+}
