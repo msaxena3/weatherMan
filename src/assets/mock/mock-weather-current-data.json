@@ -1,0 +1,187 @@
+{
+	"message": "accurate",
+	"cod": "200",
+	"count": 5,
+	"list": [{
+			"id": 1273294,
+			"name": "Delhi",
+			"coord": {
+				"lat": 28.6517,
+				"lon": 77.2219
+			},
+			"main": {
+				"temp": 300.15,
+				"pressure": 1012,
+				"humidity": 30,
+				"temp_min": 300.15,
+				"temp_max": 300.15
+			},
+			"dt": 1520251200,
+			"wind": {
+				"speed": 5.7,
+				"deg": 300
+			},
+			"sys": {
+				"country": "IN"
+			},
+			"rain": null,
+			"snow": null,
+			"clouds": {
+				"all": 0
+			},
+			"weather": [{
+					"id": 721,
+					"main": "Haze",
+					"description": "haze",
+					"icon": "50d"
+				}
+			]
+		}, {
+			"id": 5937522,
+			"name": "Delhi",
+			"coord": {
+				"lat": 42.8499,
+				"lon": -80.4938
+			},
+			"main": {
+				"temp": 266.15,
+				"pressure": 1025,
+				"humidity": 67,
+				"temp_min": 266.15,
+				"temp_max": 266.15
+			},
+			"dt": 1520251200,
+			"wind": {
+				"speed": 1
+			},
+			"sys": {
+				"country": "CA"
+			},
+			"rain": null,
+			"snow": null,
+			"clouds": {
+				"all": 5
+			},
+			"weather": [{
+					"id": 800,
+					"main": "Clear",
+					"description": "sky is clear",
+					"icon": "02d"
+				}
+			]
+		}, {
+			"id": 4513583,
+			"name": "Delhi",
+			"coord": {
+				"lat": 39.0951,
+				"lon": -84.6053
+			},
+			"main": {
+				"temp": 271.54,
+				"pressure": 1023,
+				"humidity": 58,
+				"temp_min": 271.15,
+				"temp_max": 272.15
+			},
+			"dt": 1520252100,
+			"wind": {
+				"speed": 5.1,
+				"deg": 80
+			},
+			"sys": {
+				"country": "US"
+			},
+			"rain": null,
+			"snow": null,
+			"clouds": {
+				"all": 90
+			},
+			"weather": [{
+					"id": 804,
+					"main": "Clouds",
+					"description": "overcast clouds",
+					"icon": "04d"
+				}
+			]
+		}, {
+			"id": 4865996,
+			"name": "Delhi",
+			"coord": {
+				"lat": 42.4297,
+				"lon": -91.331
+			},
+			"main": {
+				"temp": 274.45,
+				"pressure": 1015,
+				"humidity": 87,
+				"temp_min": 273.15,
+				"temp_max": 276.15
+			},
+			"dt": 1520252100,
+			"wind": {
+				"speed": 11.3,
+				"deg": 110,
+				"gust": 13.9
+			},
+			"sys": {
+				"country": "US"
+			},
+			"rain": null,
+			"snow": null,
+			"clouds": {
+				"all": 75
+			},
+			"weather": [{
+					"id": 600,
+					"main": "Snow",
+					"description": "light snow",
+					"icon": "13n"
+				}, {
+					"id": 501,
+					"main": "Rain",
+					"description": "moderate rain",
+					"icon": "10n"
+				}, {
+					"id": 701,
+					"main": "Mist",
+					"description": "mist",
+					"icon": "50n"
+				}
+			]
+		}, {
+			"id": 4321929,
+			"name": "Delhi",
+			"coord": {
+				"lat": 32.4576,
+				"lon": -91.4932
+			},
+			"main": {
+				"temp": 288.38,
+				"pressure": 1014,
+				"humidity": 59,
+				"temp_min": 287.15,
+				"temp_max": 289.15
+			},
+			"dt": 1520252100,
+			"wind": {
+				"speed": 2.1,
+				"deg": 170
+			},
+			"sys": {
+				"country": "US"
+			},
+			"rain": null,
+			"snow": null,
+			"clouds": {
+				"all": 90
+			},
+			"weather": [{
+					"id": 804,
+					"main": "Clouds",
+					"description": "overcast clouds",
+					"icon": "04n"
+				}
+			]
+		}
+	]
+}
