@@ -1,0 +1,13 @@
+<mat-toolbar mat-scroll-shrink>
+    <div class="menu-col mat-toolbar-tools">Weather Forecast</div>
+    <div class="menu-col menu-aling-r">        
+        <button mat-icon-button [matMenuTriggerFor]="menu">
+            <mat-icon>more_vert</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+            <button (click)="goToCurrent()" mat-menu-item>Current</button>
+            <button (click)="goToForecast()" mat-menu-item>Forecast</button>
+        </mat-menu>
+    </div>
+</mat-toolbar>
+<router-outlet></router-outlet>

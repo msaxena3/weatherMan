@@ -12,6 +12,7 @@ import {
   MatDividerModule,
   MatGridListModule,
   MatInputModule,
+  MatIconModule,
   MatListModule,
   MatMenuModule,
   MatRadioModule,
@@ -21,8 +22,14 @@ import {
 import {BrowserAnimationsModule,NoopAnimationsModule} from '@angular/platform-browser/animations';
 
 import { HttpModule }    from '@angular/http';
-import { WeatherComponent } from './weather.component';
-import { WeatherService }  from './weather.service';
+import { AppComponent } from './app.component';
+import { CurrentWeatherComponent } from './current/weather.component';
+import { CurrentWeatherService }  from './current/weather.service';
+import { ForecastWeatherComponent } from './forecast/weather.component';
+import { ForecastWeatherService }  from './forecast/weather.service';
+
+import { AppRoutingModule } from './app-routing.module';
+
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 
 import * as FusionCharts from 'fusioncharts';
@@ -42,6 +49,7 @@ FusionChartsModule.fcRoot(FusionCharts, Charts, FintTheme);
     MatDividerModule,
     MatGridListModule,
     MatInputModule,
+    MatIconModule,
     MatListModule,
     MatMenuModule,
     MatRadioModule,
@@ -53,21 +61,24 @@ export class CustomMaterialModule {}
 
 @NgModule({
   declarations: [
-    WeatherComponent
+    AppComponent,
+    CurrentWeatherComponent,
+    ForecastWeatherComponent
   ],
   
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
+    AppRoutingModule,
     CustomMaterialModule,
     BrowserAnimationsModule,
     NoopAnimationsModule,
     ReactiveFormsModule,
     FusionChartsModule
   ],
-  providers: [WeatherService],
-  bootstrap: [WeatherComponent]
+  providers: [CurrentWeatherService,ForecastWeatherService],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
 platformBrowserDynamic().bootstrapModule(AppModule);
