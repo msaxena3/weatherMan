@@ -5,15 +5,10 @@ import { NgModule } from '@angular/core';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {
   MatButtonModule,
-  MatButtonToggleModule,
   MatCardModule,
-  MatCheckboxModule,
-  MatDatepickerModule,
   MatDividerModule,
-  MatGridListModule,
   MatInputModule,
   MatIconModule,
-  MatListModule,
   MatMenuModule,
   MatRadioModule,
   MatSelectModule,
@@ -42,15 +37,10 @@ FusionChartsModule.fcRoot(FusionCharts, Charts, FintTheme);
 @NgModule({
   exports: [
     MatButtonModule,
-    MatButtonToggleModule,
     MatCardModule,
-    MatCheckboxModule,
-    MatDatepickerModule,
     MatDividerModule,
-    MatGridListModule,
     MatInputModule,
     MatIconModule,
-    MatListModule,
     MatMenuModule,
     MatRadioModule,
     MatSelectModule,

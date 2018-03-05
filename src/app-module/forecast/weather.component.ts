@@ -5,7 +5,7 @@ import {FormControl, Validators} from '@angular/forms';
 @Component({
   selector: 'app-root',
   templateUrl: 'weather.component.html',
-  styleUrls: ['../forecast/weather.component.css']
+  styleUrls: ['../../styles/weather.component.css']
 })
 
 export class ForecastWeatherComponent {

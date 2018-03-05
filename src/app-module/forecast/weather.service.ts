@@ -18,7 +18,7 @@ export class ForecastWeatherService {
       if(type == 'CityName')
         apiURL = this.baseURLForCity + '?appid='+ this.appID +'&q=' + location;
       else if(type == 'ZIPCode')
-        apiURL = this. baseURLForZIPCode + '?appid='+ this.appID +'&zip=' + location+",us";
+        apiURL = this. baseURLForZIPCode + '?appid='+ this.appID +'&zip=' + location;
             
       return this.http.get(apiURL)
                .toPromise()

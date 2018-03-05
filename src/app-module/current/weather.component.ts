@@ -6,7 +6,7 @@ import { DecimalPipe } from '@angular/common';
 @Component({
   selector: 'app-root',
   templateUrl: 'weather.component.html',
-  styleUrls: ['../current/weather.component.css']
+  styleUrls: ['../../styles/weather.component.css']
 })
 
 export class CurrentWeatherComponent {
